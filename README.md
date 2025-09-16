@@ -1,16 +1,16 @@
-# inumprog-qual-2025-2 — Data Files
+# 데이터 제출용
 
 본 레포는 2025-2학기 **인문지식처리와프로그래밍** 논문 제출 자격시험 데이터 제출용입니다.  
 이론 답안 및 코드 파일은 포함하지 않고, **데이터 파일만** 포함합니다.
 
 ## 폴더 구조
 
-data/
+``` data/
 ├── 문제1_수집데이터/
 │ ├── raw_data.json # API로 수집한 원본 데이터
 │ └── processed_data.csv # Pandas로 처리한 데이터
 └── 문제2_분석결과/
 ├── morpheme_analysis.csv # 형태소 분석 결과
 ├── keywords.csv # 키워드 추출 결과
-└── topic_model/ # 토픽 모델링 결과
+└── topic_model/ # 토픽 모델링 결과 ```
 
