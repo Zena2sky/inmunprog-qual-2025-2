@@ -5,8 +5,7 @@
 
 ---
 
-## 1. 전처리 및 토큰화 결과
-
+## 1. 전처리 및 토큰화 결과 (`1_preprocessing`)
 - **`docs_from_processed.csv`**  
   전처리 완료된 문서 단위 데이터
 
@@ -21,8 +20,7 @@
 
 ---
 
-## 2. 품사/빈도 분석
-
+## 2. 품사/빈도 분석 (`2_pos_analysis`)
 - **`unigram_top50.csv` / `bigram_top50.csv` / `trigram_top50.csv`**  
   단일어·이중어·삼중어 상위 50개 빈도표
 
@@ -37,8 +35,7 @@
 
 ---
 
-## 3. 키워드 및 시각화 결과
-
+## 3. 키워드 및 시각화 결과 (`3_keywords`)
 - **`group_keywords_category.csv`**  
   주요 키워드 그룹별 집계
 
@@ -47,13 +44,13 @@
 
 ---
 
-## 4. HuggingFace 모델 적용 결과
-
+## 4. HuggingFace 모델 적용 결과 (`4_hf_results`)
 - **`hf_predictions_from_processed.csv` / `.pkl`**  
   HuggingFace 모델 예측 결과 (CSV 및 pickle)
 
 - **`label_keyword_top_from_processed_top20.csv`**  
   예측 라벨 기준 상위 20개 키워드
+
 
 ---
 
